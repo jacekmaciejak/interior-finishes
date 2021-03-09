@@ -2,12 +2,10 @@ import React from 'react'
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar';
+import Home from './components/Pages/Home';
 // import ListWrapper from './components/ListWrapper/ListWrapper'
 // import ScopeOfWorkWrapper from './components/ListWrapper/WorkWrapper'
 // import Form from './components/Form/Form'
-
-
-
 
 
 const App = () => {
@@ -16,7 +14,7 @@ const App = () => {
       <Router>
         <Navbar></Navbar>
         <Switch>
-          <Route path='/' exact />
+          <Route path='/' exact component={Home} />
         </Switch>
       </Router>
     </>
