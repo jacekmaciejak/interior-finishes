@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+/Źrodla-react-od-podstaw
+/Materials
 
 # testing
 /coverage

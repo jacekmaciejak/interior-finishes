@@ -1,0 +1,8 @@
+.scopeOfWorkWrapper__wrapper {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(170, 154, 154);
+}

@@ -1,0 +1,13 @@
+.scopeOfWork__wrapper {
+    list-style: none;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.scopeOfWork__image {
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
