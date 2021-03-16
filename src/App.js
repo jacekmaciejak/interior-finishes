@@ -3,9 +3,13 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Pages/Home';
+import Services from './components/Pages/Services';
+import AboutUs from './components/Pages/AboutUs';
+import Contact from './components/Pages/Contact';
+import Realizations from './components/Pages/Realizations';
+import Footer from './components/Footer/Footer';
 // import ListWrapper from './components/ListWrapper/ListWrapper'
 // import ScopeOfWorkWrapper from './components/ListWrapper/WorkWrapper'
-// import Form from './components/Form/Form'
 
 
 const App = () => {
@@ -15,7 +19,12 @@ const App = () => {
         <Navbar></Navbar>
         <Switch>
           <Route path='/' exact component={Home} />
+          <Route path='/o-nas' component={AboutUs} />
+          <Route path='/uslugi' component={Services} />
+          <Route path='/nasze-realizacje' component={Realizations} />
+          <Route path='/kontakt' component={Contact} />
         </Switch>
+        <Footer />
       </Router>
     </>
 
