@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Button from '../Button/Button';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
@@ -28,53 +28,58 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                    <NavLink to='/' className='navbar-logo' onClick={closeMobileMenu}>
                         Jacek Maciejak
             <i class="fas fa-tools"></i>
-                    </Link>
+                    </NavLink>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/o-nas' className='nav-links' onClick={closeMobileMenu}>
+                            <NavLink to='/o-nas' className='nav-links' onClick={closeMobileMenu}
+                                activeClassName='link-active'>
                                 O nas
-              </Link>
+              </NavLink>
                         </li>
                         <li className='nav-item'>
-                            <Link
+                            <NavLink
                                 to='/uslugi'
                                 className='nav-links'
                                 onClick={closeMobileMenu}
+                                activeClassName='link-active'
                             >
                                 Usługi
-              </Link>
+              </NavLink>
                         </li>
                         <li className='nav-item'>
-                            <Link
+                            <NavLink
                                 to='/nasze-realizacje'
                                 className='nav-links'
                                 onClick={closeMobileMenu}
+                                activeClassName='link-active'
                             >
                                 Nasz realizacje
-              </Link>
+              </NavLink>
                         </li>
-                        <li className='nav-item'>                            <Link
+                        <li className='nav-item'>                            <NavLink
                             to='/kontakt'
                             className='nav-links'
                             onClick={closeMobileMenu}
+                            activeClassName='link-active'
                         >
                             Kontakt
-              </Link></li>
+              </NavLink></li>
 
                         <li>
-                            <Link
+                            <NavLink
                                 to='/sign-up'
                                 className='nav-links-mobile'
                                 onClick={closeMobileMenu}
+                                activeClassName='link-active'
                             >
                                 Sign Up
-              </Link>
+              </NavLink>
 
                         </li>
                     </ul>
