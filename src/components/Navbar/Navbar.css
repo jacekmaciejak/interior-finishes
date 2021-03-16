@@ -8,6 +8,8 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  letter-spacing: 2px;
+
 }
 
 .navbar-container {
@@ -32,6 +34,8 @@
 .fa-tools {
   margin-left: 0.5rem;
   font-size: 1.8rem;
+  color: lawngreen;
+
 }
 
 .nav-menu {
@@ -46,7 +50,9 @@
 }
 
 .nav-item {
-  height: 80px;
+  height: auto;
+  padding: 0.5rem 1rem;
+
 }
 
 .nav-links {
@@ -54,13 +60,15 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding-bottom: 5px;
   height: 100%;
+  border-bottom: 2px solid transparent;
+
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
-  transition: all 0.2s ease-out;
+  border-bottom: 2px solid lawngreen;
+  transition: all 0.3s ease-out;
 }
 
 .link-active {
