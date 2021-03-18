@@ -1,11 +1,14 @@
 import React from 'react'
-import '../../App.css'
+import MyFancyComponent from '../Map/MyFancyComponent'
+import './Contact.css'
 
 
 function Contact() {
+
     return (
-        <div>
-            <h1 className="contact">KONTAKT</h1>
+        <div className="contact">
+            <h1 className="contact__title">Nasza lokalizacja</h1>
+            <MyFancyComponent/>
         </div>
     )
 }

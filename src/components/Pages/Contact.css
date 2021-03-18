@@ -1,0 +1,17 @@
+.contact {
+    height: calc(100vh - 80px);
+    display: grid;
+    justify-content: center;
+}
+
+.contact__title {
+    display: block;
+    margin-top: 50px;
+    width: auto;
+    height: 100px;
+}
+
+.contact__map {
+    width: 50vw;
+    height: 50vh;
+}
