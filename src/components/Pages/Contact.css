@@ -1,17 +1,9 @@
 .contact {
+    background-color: #fafafa;
     height: calc(100vh - 80px);
     display: grid;
-    justify-content: center;
-}
-
-.contact__title {
-    display: block;
-    margin-top: 50px;
-    width: auto;
-    height: 100px;
-}
-
-.contact__map {
-    width: 50vw;
-    height: 50vh;
+    flex-direction: column;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    /* flex-wrap: wrap; */
 }

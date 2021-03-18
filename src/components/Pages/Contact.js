@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactForm from '../ContactForm/ContactForm'
 import MyFancyComponent from '../Map/MyFancyComponent'
 import './Contact.css'
 
@@ -7,8 +8,8 @@ function Contact() {
 
     return (
         <div className="contact">
-            <h1 className="contact__title">Nasza lokalizacja</h1>
-            <MyFancyComponent/>
+            <ContactForm />
+            <MyFancyComponent />
         </div>
     )
 }

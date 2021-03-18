@@ -1,6 +1,7 @@
 import React from 'react'
 import MyMapComponent from './MyMapComponent'
-
+import './MyFancyComponent.css'
+import Title from '../Title/Title'
 
 
 export default class MyFancyComponent extends React.PureComponent {
@@ -25,10 +26,14 @@ export default class MyFancyComponent extends React.PureComponent {
 
     render() {
         return (
-            <MyMapComponent
-                isMarkerShown={this.state.isMarkerShown}
-                onMarkerClick={this.handleMarkerClick}
-            />
+            <div className="map">
+                <Title>Lokalizacja</Title>
+                <MyMapComponent
+                    isMarkerShown={this.state.isMarkerShown}
+                    onMarkerClick={this.handleMarkerClick}
+                />
+            </div>
+
         )
     }
 }
