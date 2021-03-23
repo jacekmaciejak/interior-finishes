@@ -1,9 +1,9 @@
 .contact {
-    background-color: #fafafa;
-    height: calc(100vh - 80px);
-    display: grid;
+    background-color: #ECECEC;
+    height: auto
+    /* display: grid;
     flex-direction: column;
     grid-template-columns: 1.5fr 1fr;
-    align-items: center;
+    align-items: center; */
     /* flex-wrap: wrap; */
 }

@@ -34,7 +34,7 @@
 .fa-tools {
   margin-left: 0.5rem;
   font-size: 1.8rem;
-  color: #7CFC00;
+  color: #12C93D;
 
 }
 
@@ -67,12 +67,12 @@
 }
 
 .nav-links:hover {
-  border-bottom: 2px solid lawngreen;
+  border-bottom: 2px solid #12C93D;
   transition: all 0.3s ease-out;
 }
 
 .link-active {
-  color: lawngreen;
+  color: #12C93D;
 }
 
 .fa-bars {
