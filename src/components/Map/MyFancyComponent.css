@@ -9,3 +9,12 @@
     grid-gap: 50px;
     padding: 50px 0;
 }
+
+
+@media (max-width: 850px) {
+
+    .map {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr .5fr;
+    }
+}

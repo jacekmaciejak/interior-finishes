@@ -7,7 +7,7 @@
 
 }
 
-.home,
+/* .home,
 .services,
 .about-us,
 .realizations
@@ -22,7 +22,7 @@
 
 .services {
     /* // background-image: url('../public/images/img-2.jpg'); */
-    background-position: center;
+    /* background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 100px;
@@ -30,16 +30,16 @@
 
 .about-us {
     /* // background-image: url('../public/images/img-2.jpg'); */
-    background-position: center;
+    /* background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 100px;
-}
+} */
 
-.realizations {
+/* .realizations {
     /* // background-image: url('../public/images/img-1.jpg'); */
-    background-position: center;
+    /* background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
     font-size: 100px;
-}
+} */
