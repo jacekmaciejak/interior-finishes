@@ -1,0 +1,11 @@
+.realizations__wrapper {
+    width: 100%;
+    min-height: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color: #ECECEC;
+    padding: 50px
+}

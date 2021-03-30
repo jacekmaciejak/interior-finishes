@@ -1,11 +1,10 @@
 import React from 'react'
 import '../../App.css'
+import RealizationsWrapper from '../RealizationsGalleryWrapper/RealizationsWrapper'
 
 function Realizations() {
     return (
-        <div>
-<h1 className="realizations">REALIZATIONS</h1>
-        </div>
+        <RealizationsWrapper />
     )
 }
 

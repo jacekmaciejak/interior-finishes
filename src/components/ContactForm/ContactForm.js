@@ -8,6 +8,8 @@ function ContactForm() {
     function focusFunc() {
         let parent = this.parentNode;
         parent.classList.add("focus");
+        console.log('Focus');
+
     }
 
     function blurFunc() {
@@ -15,6 +17,8 @@ function ContactForm() {
         if (this.value === "") {
             parent.classList.remove("focus");
         }
+        console.log('Blur');
+
     }
 
     inputs.forEach((input) => {
