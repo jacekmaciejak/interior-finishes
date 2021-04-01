@@ -4,7 +4,9 @@ import RealizationsWrapper from '../RealizationsGalleryWrapper/RealizationsWrapp
 
 function Realizations() {
     return (
+
         <RealizationsWrapper />
+
     )
 }
 

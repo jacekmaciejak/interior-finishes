@@ -1,9 +1,14 @@
 import React from 'react'
+import './Services.css'
 import '../../App.css'
+import backgroundImage from '../../assets/images/waterInstallation.jpg'
+import ServicesWrapper from '../ServicesWrapper/ServicesWrapper'
+
 function Services() {
     return (
-        <div>
-            <h1 className="services">SERVICES</h1>
+        <div className="services">
+            <img className='services__back' src={backgroundImage} alt="Background" />
+            <ServicesWrapper />
         </div>
     )
 }

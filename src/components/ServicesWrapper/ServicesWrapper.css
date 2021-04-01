@@ -1,4 +1,4 @@
-.realizations__wrapper {
+.services__wrapper {
     width: 100%;
     min-height: 50%;
     display: flex;
@@ -6,8 +6,11 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
-    background-color: #ECECEC;
     padding: 50px;
-    background-image: url();
 }
 
+@media screen and (max-width: 815px) {
+    .services__wrapper {
+        padding: 10px;
+    }
+}
