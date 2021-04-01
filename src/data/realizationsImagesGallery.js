@@ -37,5 +37,14 @@ export const imagesRealizationData = [
         title: 'Mycie i malowanie elewacji',
         description: 'Lorem ipsum dolor sit amet',
     },
+    {
+        image: electricalInstallation,
+        title: 'Instalacje elektryczne',
+        description: 'Lorem ipsum dolor sit amet',
+    }, {
+        image: waterInstallation,
+        title: 'Instalacje wodno - kanalizacyjne',
+        description: 'Lorem ipsum dolor sit amet',
+    },
 
 ]

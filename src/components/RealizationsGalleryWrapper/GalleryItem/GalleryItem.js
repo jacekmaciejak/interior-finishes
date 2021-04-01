@@ -7,7 +7,7 @@ function GalleryItem({ image, title }) {
     return (
         <div className='gallery__item'>
             <ImageTag src={image} className={image ? 'gallery__image' : 'gallery__imageNone'} alt={title} />
-            <h2>{title}</h2>
+            {/* <h2>{title}</h2> */}
         </div>
     )
 }
