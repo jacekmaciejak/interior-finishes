@@ -1,17 +1,2 @@
-.services {
-    width: 100%;
-    min-height: 40vh;
-}
 
-.services__back {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background-color: transparent;
-    height: 100%;
-    width: 100%;
-    opacity: .2;
-    background-size: cover;
-    object-fit: cover;
-}
+

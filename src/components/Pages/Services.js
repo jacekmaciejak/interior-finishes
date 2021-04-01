@@ -3,11 +3,12 @@ import './Services.css'
 import '../../App.css'
 import backgroundImage from '../../assets/images/waterInstallation.jpg'
 import ServicesWrapper from '../ServicesWrapper/ServicesWrapper'
+import BackgroundImage from '../BackgroundImage/BackgroundImage'
 
 function Services() {
     return (
         <div className="services">
-            <img className='services__back' src={backgroundImage} alt="Background" />
+            <BackgroundImage />
             <ServicesWrapper />
         </div>
     )
