@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar';
@@ -8,24 +8,36 @@ import Services from './components/Pages/Services';
 import Contact from './components/Pages/Contact';
 import Realizations from './components/Pages/Realizations';
 import Footer from './components/Footer/Footer';
+import LoadingSpinner from './components/LoadingSpinner/LoadingSpinner'
 
 
 
 const App = () => {
+  const [isLoading, setIsLoading] = useState(true)
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false)
+    }, 1500);
+  })
   return (
+
     <>
-      <Router>
-        <Navbar></Navbar>
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/o-nas' component={Home} />
-          <Route path='/uslugi' component={Services} />
-          <Route path='/nasze-realizacje' component={Realizations} />
-          <Route path='/kontakt' component={Contact} />
-        </Switch>
-        <Footer />
-      </Router>
+      {isLoading === true ? <LoadingSpinner /> :
+        <Router>
+          <Navbar></Navbar>
+          <Switch>
+            <Route path='/' exact component={Home} />
+            <Route path='/o-nas' component={Home} />
+            <Route path='/uslugi' component={Services} />
+            <Route path='/nasze-realizacje' component={Realizations} />
+            <Route path='/kontakt' component={Contact} />
+          </Switch>
+          <Footer />
+        </Router>
+      }
     </>
+
+
 
 
   );
