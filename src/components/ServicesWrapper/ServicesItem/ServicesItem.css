@@ -17,6 +17,12 @@
     cursor: pointer;
     border-radius: 5px;
     width: 350px;
+
+}
+
+.services__item>p {
+    font-weight: bold;
+    margin-top: 5px;
 }
 
 @media screen and (max-width: 815px) {

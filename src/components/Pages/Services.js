@@ -6,11 +6,14 @@ import ServicesWrapper from '../ServicesWrapper/ServicesWrapper'
 import BackgroundImage from '../BackgroundImage/BackgroundImage'
 
 function Services() {
+
     return (
+
         <div className="services">
             <BackgroundImage />
             <ServicesWrapper />
         </div>
+
     )
 }
 

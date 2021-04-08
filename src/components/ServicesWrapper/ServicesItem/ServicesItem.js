@@ -2,12 +2,13 @@ import React from 'react'
 import './ServicesItem.css'
 import PropTypes from 'prop-types'
 
-function ServicesItem({ image, title }) {
+function ServicesItem({ image, title, description }) {
     const ImageTag = image ? "img" : "div"
     return (
         <div className='services__item'>
             <ImageTag src={image} className={image ? 'services__image' : 'services__imageNone'} alt={title} />
             <h2>{title}</h2>
+            <p>{description}</p>
         </div>
     )
 }

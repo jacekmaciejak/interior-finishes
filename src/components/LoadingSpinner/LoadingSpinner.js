@@ -3,7 +3,7 @@ import Loader from 'react-loader-spinner'
 import './LoadingSpinner.css'
 function LoadingSpinner() {
     return (
-        <div className='loader'>
+        <div className='loaderSpinner'>
             <Loader
                 type="Grid"
                 color="#12C13B"

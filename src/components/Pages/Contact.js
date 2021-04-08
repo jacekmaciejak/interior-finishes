@@ -16,6 +16,7 @@ function Contact() {
 
     return (
         <div>
+
             {isLoading === true ? <LoadingSpinner /> :
                 <div className="contact">
                     <BackgroundImage />
