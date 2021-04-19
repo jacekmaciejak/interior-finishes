@@ -4,6 +4,7 @@ import AboutCompany from '../AboutCompany/AboutCompany'
 import Cards from '../Cards/Cards'
 import Hero from '../Hero/Hero'
 import Benefits from '../Benefits/Benefits'
+import ActionPlan from '../ActionPlan/ActionPlan'
 
 
 function Home() {
@@ -13,6 +14,8 @@ function Home() {
             <Benefits />
             <AboutCompany />
             <Cards />
+            <ActionPlan />
+
         </div>
     )
 }
