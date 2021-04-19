@@ -1,0 +1,38 @@
+.benefits__container {
+    width: 100%;
+    min-height: 120px;
+    background-color: #000;
+    color: #BB9A5E;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    row-gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.benefits__item {
+    display: flex;
+    align-items: center;
+}
+
+.benefits__item i {
+    margin-right: 10px;
+}
+
+.benefits__wave {
+    height: 150px;
+    overflow: hidden;
+}
+
+.benefits__wave svg {
+    height: 100%;
+    width: 100%;
+}
+
+.benefits__wave svg path {
+    stroke: none;
+    fill: #000;
+}

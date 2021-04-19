@@ -5,6 +5,7 @@ import './Cards.css'
 function Cards() {
     return (
         <div className='cards'>
+            <video src="/videos/video-1.mp4" autoPlay loop muted />
             <h1>Check out these epic destinations</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">

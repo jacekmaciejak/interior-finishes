@@ -1,7 +1,7 @@
 .address__line {
     width: 50%;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #12C93D;
     height: 3px;
 }
 
@@ -14,7 +14,7 @@
 .address__item {
     display: grid;
     row-gap: 20px;
-    border-left: 3px solid #fff;
+    border-left: 3px solid #12C93D;
 }
 
 .address__item>h3 {

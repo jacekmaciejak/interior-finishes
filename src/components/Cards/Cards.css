@@ -1,6 +1,15 @@
 .cards {
     padding: 4rem;
     background: #fff;
+    margin-top: -150px;
+}
+
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* position: fixed;
+    z-index: 1; */
 }
 
 h1 {
