@@ -6,13 +6,13 @@ function ActionPlanItem({ image, title1, title2, title3, title4, p1, p2, p3, p4,
     return (
         <section className="action__wrapper">
 
-            <div className="x">
+            <div className="action__container">
                 <div className="action__item">
                     <h2>{title1}</h2>
                     <h1>{title2}</h1>
                     <hr className='action__line' />
-                    <h3>{title3}</h3>
-                    <ul className='action__list'>
+                    <h3 className={title3 ? "" : 'displayNone'}>{title3}</h3>
+                    <ul className={p1 ? 'action__list' : 'displayNone'} >
                         <li>{p1}</li>
                         <li>{p2}</li>
                         <li>{p3}</li>
@@ -20,8 +20,8 @@ function ActionPlanItem({ image, title1, title2, title3, title4, p1, p2, p3, p4,
                         <li>{p5}</li>
                         <li>{p6}</li>
                     </ul>
-                    <div className="action__description">{description}</div>
-                    <h3>{title4}</h3>
+                    <div className={description ? "action__description" : "displayNone"}>{description}</div>
+                    <h3 className={title4 ? " " : "displayNone"}>{title4}</h3>
 
                 </div>
             </div>

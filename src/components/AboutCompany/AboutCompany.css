@@ -50,3 +50,17 @@
     stroke: none;
     fill: #BAFFC5;
 }
+
+@media only screen and (max-width: 1000px) {
+
+    .content__description {
+        padding: 0px;
+        margin-left: 50px;
+    }
+
+
+    .content__description>p {
+        width: 100%;
+        padding-top: 3rem;
+    }
+}
