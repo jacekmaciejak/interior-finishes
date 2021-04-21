@@ -3,7 +3,7 @@ import './Home.css'
 import AboutCompany from '../AboutCompany/AboutCompany'
 import Cards from '../Cards/Cards'
 import Hero from '../Hero/Hero'
-import Benefits from '../Benefits/Benefits'
+import BenefitsWrapper from '../Benefits/BenefitsWrapper'
 import ActionPlanWrapper from '../ActionPlan/ActionPlanWrapper'
 import SummaryWrapper from '../Summary/SummaryWrapper'
 
@@ -12,7 +12,7 @@ function Home() {
     return (
         <div>
             <Hero />
-            <Benefits />
+            <BenefitsWrapper />
             <AboutCompany />
             <Cards />
             <ActionPlanWrapper />

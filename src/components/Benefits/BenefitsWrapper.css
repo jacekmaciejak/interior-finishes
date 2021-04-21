@@ -2,23 +2,11 @@
     width: 100%;
     min-height: 120px;
     background-color: var(--grey-colour);
-    color: var(--gold-colour);
     display: flex;
     justify-content: space-around;
-    column-gap: 50px;
-    row-gap: 50px;
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
-}
-
-.benefits__item {
-    display: flex;
-    align-items: center;
-}
-
-.benefits__item i {
-    margin-right: 10px;
 }
 
 .benefits__wave {

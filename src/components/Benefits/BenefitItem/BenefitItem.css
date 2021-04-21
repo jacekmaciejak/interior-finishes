@@ -1,0 +1,16 @@
+.benefits__item {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    color: var(--gold-colour);
+
+}
+
+.benefits__item i {
+    margin-right: 10px;
+    color: var(--green-flashy-colour)
+}
+
+.benefits__item h1 {
+    text-transform: uppercase;
+}
