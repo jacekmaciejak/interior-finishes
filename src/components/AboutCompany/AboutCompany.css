@@ -15,14 +15,10 @@
 
 .content__description {
     width: 70%;
-    /* box-shadow: 0 20px 40px -10px #818181; */
     padding: 50px;
-    /* background-color: #EFF7FF;
-    border-right: 4px solid #12C93D;
-    border-bottom: 4px solid #12C93D; */
+    display: grid;
+    justify-content: center;
 }
-
-
 
 .content__description>h1 {
     font-weight: bold;

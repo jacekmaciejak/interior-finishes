@@ -10,8 +10,8 @@ function Hero() {
             <h2>Luksus to nie tylko piękny ogród</h2>
             <h1>To sposób w jaki powstaje</h1>
             <section className="hero__buttons">
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>GET STARTED</Button>
-                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>WATCH TRAILER <i className='far fa-play-circle'></i></Button>
+                <Button buttonStyle='btn--outline' buttonSize='btn--large'>kontakt</Button>
+                <Button buttonStyle='btn--primary' buttonSize='btn--large'>usługi <i className='fas fa-tools'></i></Button>
             </section>
 
 
