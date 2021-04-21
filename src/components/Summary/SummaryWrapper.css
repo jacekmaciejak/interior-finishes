@@ -1,0 +1,45 @@
+.summary__wrapper {
+    width: 100%;
+    background-color: var(--black-colour);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.summary__wrapper-wave-top {
+    height: 150px;
+    overflow: hidden;
+    margin-top: -80px;
+}
+
+.summary__wrapper-wave-top svg {
+    height: 100%;
+    width: 100%;
+}
+
+.summary__wrapper-wave-top svg path {
+    stroke: none;
+    fill: var(--black-colour);
+}
+
+.summary__wrapper-wave-bottom {
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: -100px;
+
+}
+
+.summary__wrapper-wave-bottom svg {
+    height: 100%;
+    width: 100%;
+}
+
+.summary__wrapper-wave-bottom svg path {
+    stroke: none;
+    fill: var(--black-colour);
+}
+
+@media screen and (max-width: 800px) {
+    .summary__wrapper {}
+}

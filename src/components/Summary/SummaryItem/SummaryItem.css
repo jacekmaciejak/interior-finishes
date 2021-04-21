@@ -1,0 +1,7 @@
+.summary__item {
+    margin: 30px;
+}
+
+.summary__item h1 {
+    color: var(--gold-colour)
+}

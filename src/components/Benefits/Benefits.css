@@ -1,15 +1,14 @@
 .benefits__container {
     width: 100%;
     min-height: 120px;
-    background-color: #000;
-    color: #BB9A5E;
+    background-color: var(--grey-colour);
+    color: var(--gold-colour);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     column-gap: 50px;
     row-gap: 50px;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 22px;
     padding: 20px;
 }
 
@@ -34,5 +33,5 @@
 
 .benefits__wave svg path {
     stroke: none;
-    fill: #000;
+    fill: var(--grey-colour);
 }

@@ -1,5 +1,5 @@
 .content__container {
-    background-color: #BAFFC5;
+    background-color: var(--green-bland-colour);
     display: flex;
     justify-content: space-around;
     padding: 4rem;
@@ -48,7 +48,7 @@
 
 .content__wave svg path {
     stroke: none;
-    fill: #BAFFC5;
+    fill: var(--green-bland-colour);
 }
 
 @media only screen and (max-width: 1000px) {
@@ -62,5 +62,18 @@
     .content__description>p {
         width: 100%;
         padding-top: 3rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .content__container {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .content__container img {
+        width: 30%;
+        height: 50%;
     }
 }

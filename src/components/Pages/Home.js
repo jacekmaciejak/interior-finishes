@@ -5,6 +5,7 @@ import Cards from '../Cards/Cards'
 import Hero from '../Hero/Hero'
 import Benefits from '../Benefits/Benefits'
 import ActionPlanWrapper from '../ActionPlan/ActionPlanWrapper'
+import SummaryWrapper from '../Summary/SummaryWrapper'
 
 
 function Home() {
@@ -15,7 +16,7 @@ function Home() {
             <AboutCompany />
             <Cards />
             <ActionPlanWrapper />
-
+            <SummaryWrapper />
         </div>
     )
 }

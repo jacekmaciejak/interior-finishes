@@ -10,7 +10,11 @@ function ActionPlanItem({ image, title1, title2, title3, title4, p1, p2, p3, p4,
                 <div className="action__item">
                     <h2>{title1}</h2>
                     <h1>{title2}</h1>
-                    <hr className='action__line' />
+                    <div className='action__line'>
+                        <hr />
+                        <hr />
+                        <hr />
+                    </div>
                     <h3 className={title3 ? "" : 'displayNone'}>{title3}</h3>
                     <ul className={p1 ? 'action__list' : 'displayNone'} >
                         <li>{p1}</li>
