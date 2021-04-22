@@ -13,7 +13,7 @@ function AboutCompany() {
                     <h1>Witajcie na naszej stronie</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi animi tempora ut adipisci voluptatum debitis quo omnis asperiores molestiae incidunt quod suscipit aliquam nemo illo, perferendis sit minima quos consectetur odit quas repellat officiis quaerat. Id sapiente accusamus tenetur laboriosam ?</p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi animi tempora ut adipisci voluptatum debitis quo omnis asperiores molestiae incidunt quod suscipit aliquam nemo illo, perferendis sit minima quos consectetur odit quas repellat officiis quaerat. Id sapiente accusamus tenetur laboriosam ?</p>
-                    <Button buttonStyle='btn--outline' >Zakres usług</Button>
+                    <Button buttonStyle='btn--center' >Zakres usług</Button>
                 </section>
             </div>
             <div className="content__wave" >

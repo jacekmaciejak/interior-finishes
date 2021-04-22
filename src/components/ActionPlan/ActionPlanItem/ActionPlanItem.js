@@ -27,7 +27,7 @@ function ActionPlanItem({ image, title1, title2, title3, title4, p1, p2, p3, p4,
                     </ul>
                     <div className={description ? "action__description" : "displayNone"}>{description}</div>
                     <h3 className={title4 ? " " : "displayNone"}>{title4}</h3>
-                    <Button>zapraszamy</Button>
+                    <Button buttonStyle='btn--center'>zapraszamy</Button>
 
                 </div>
             </div>

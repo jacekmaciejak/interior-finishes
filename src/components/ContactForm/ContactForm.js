@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../Button/Button';
 import './ContactForm.css'
 
 function ContactForm() {
@@ -33,11 +34,11 @@ function ContactForm() {
                 {/* <span className="contact__big-circle"></span>
                 <img src="img/shape.png" className="contact__square" alt="" /> */}
                 <div className="contact__form">
-                    <span className="contact__circle one"></span>
-                    <span className="contact__circle two"></span>
-                    <h2 className="contact__title">Napisz do nas</h2>
+                    {/* <span className="contact__circle one"></span>
+                    <span className="contact__circle two"></span> */}
+                    {/* <h2 className="contact__title">Napisz do nas</h2> */}
 
-                    <form action="index.html" autocomplete="off">
+                    <form className='contact__wrapper' action="index.html" autocomplete="off">
                         <div className="form__items">
                             <div className="input__container">
                                 <input type="text" name="name" className="form__input" />
@@ -78,7 +79,8 @@ function ContactForm() {
                                 <label for="">Wiadomość</label>
                                 <span>Wiadomość</span>
                             </div>
-                            <input type="submit" value="Wyślij" className="form__btn" />
+                            {/* <input type="submit" value="Wyślij" className="form__btn" /> */}
+                            <Button buttonStyle='btn--center'>Wyślij</Button>
                         </div>
 
 
