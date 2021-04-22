@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Button from '../Button/Button';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 
@@ -83,7 +82,7 @@ function Navbar() {
 
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+                    {/* {button} */}
                 </div>
             </nav>
         </>

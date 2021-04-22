@@ -14,9 +14,10 @@
 
 .navbar-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 80px;
+  width: 90%;
   /* max-width: 1500px; */
 }
 
@@ -45,9 +46,8 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 50vw;
+  width: 60vw;
   justify-content: end;
-  margin-right: 2rem;
 }
 
 .nav-item {
