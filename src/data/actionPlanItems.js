@@ -1,31 +1,35 @@
-import plasters from '../assets/images/plasters.jpg'
-import renovation from '../assets/images/renovation.jpg'
-import waterInstallation from '../assets/images/waterInstallation.jpg'
+import spotkanie from '../assets/images/spotkanie.jpg'
+import akceptacja from '../assets/images/akceptacja.jpg'
+import ogród from '../assets/images/ogród.jpg'
 
 export const actionPlanItems = [
     {
-        image: plasters,
-        title1: 'Początek współpracy Etap 1',
-        title2: 'projekt',
+        image: spotkanie,
+        title1: 'Początek współpracy',
+        title2: 'określenie Państwa oczekiwań',
         title3: 'Początek naszej współpracy obejmuje:',
-        title4: 'Po ewentualnej akceptacji wyceny materiałów przechodzimy do 2 Etapu ',
-        p1: 'identyfikację potrzeb wraz z pomiarem (część bezpłatna) - 1 spotkanie',
-        p2: 'wykonanie wizualizacji 3D wraz z panoramą',
-        p3: 'wybór materialów - 2 spotkanie',
-        p4: 'naniesienie poprawek',
-        p5: 'projekt techniczny',
-        p6: 'stworzenie listy zakupowej wraz z ofertą dostarczenia materiałów'
+        title4: 'Na podstawie pierwszego spotkania tworzymy wstępny kosztorys prac. ',
+        p1: 'spotkanie mającena celu określenie Państwa potrzeb i oczekiwań wraz z niezbędnymi pomiarami terenu',
+        p2: 'po ustaleniu Państwa wymagań dokonujemy wstępnego wyboru materiałów i roślin niezbędnych do realizacji Państwa wymarzonego ogrodu',
+        p3: 'w trakcie spotkania służymy Państwu naszą wiedzą, pomożemy i doradzimy możliwe rozwiązania'
+
     },
     {
-        image: renovation,
-        title1: 'Czas na materiały Etap 2',
-        title2: 'Dostawa materiałów',
-        description: 'Dostarczamy na budowę materiały potrzebne do wykonania Twojej wymarzonej łazienki.Jeżeli cena materiałów przekroczy 10 000 zł projekt otrzymujesz bezpłatnie a kwota, którą Wpłaciłeś za wykonanie projektu jest odejmowana od faktury za materiały.'
+        image: akceptacja,
+        title1: 'Akceptacja kosztorysu',
+        title2: 'ustelenie szczegółowego planu wykonania ogrodu',
+        title3: 'Po akceptacji wstępnego kosztorysu ustalamy szczegółowy plan działania:',
+        p1: 'zaproponujemy Państwu szczegółową listę roślin i rozwiązań spełniających Państwa wymagania',
+        p2: 'tworzymy listę zakupową niezbędną do rozpoczęcia prac',
+        p3: 'ustalamy termin rozpoczęcia prac',
+        description: 'Na tym etapie ustalimy przybliżony czas realizacji projektu oraz sposoby wykonania etapów prac.',
+        title4: 'Szczegółowy plan prac wraz z listą materiałów i roślin zostanie stworzony tak aby spełnić wszystkie Państwa oczekiwania o wymarzonym ogrodzie.'
     },
     {
-        image: waterInstallation,
-        title1: 'Czas na wykonanie Etap 3',
-        title2: 'nasze kompleksowe wykonawstwo',
-        description: 'W przypadku kiedy zdecydujesz się powierzyć nam wykonanie swojej łazienki, możesz być pewien że: wniesiemy materiały, wykonamy łazienkę zgodnie z projektem oraz sztuką budowlaną, udzielimy gwarancji. Posiadamy również ubezpieczenie OC naszej działalności. Co najważniejsze, płacisz za wykonany etap!'
+        image: ogród,
+        title1: 'Czas na wykonanie',
+        title2: 'zaczynamy',
+        description: 'Rozpoczynamy ustalone prace. Szybko, sprawnie, przejrzyście finansowo i zgodnie z Państwa oczekiwaniami. W trakcie prac możemy zmieniać i ustalać nowe roziwązania na bieżąco. ',
+        title4: 'Państwa zadowolenie i radość jest dla nas najważniejsza.'
     }
 ]

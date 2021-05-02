@@ -21,9 +21,6 @@ function ActionPlanItem({ image, title1, title2, title3, title4, p1, p2, p3, p4,
                         <li>{p1}</li>
                         <li>{p2}</li>
                         <li>{p3}</li>
-                        <li>{p4}</li>
-                        <li>{p5}</li>
-                        <li>{p6}</li>
                     </ul>
                     <div className={description ? "action__description" : "displayNone"}>{description}</div>
                     <h3 className={title4 ? " " : "displayNone"}>{title4}</h3>

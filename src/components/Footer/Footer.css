@@ -1,6 +1,6 @@
 .footer__container {
   background-color: var(--grey-colour);
-  padding-top: 2rem;
+  padding: 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;

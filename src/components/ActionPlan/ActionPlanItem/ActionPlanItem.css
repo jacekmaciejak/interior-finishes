@@ -30,6 +30,7 @@
     border: 3px solid #BB9A5E;
     padding: 15px;
     margin-top: 20px;
+    text-align: center;
 }
 
 .action__item h2 {
@@ -40,6 +41,7 @@
 
 .action__item h3 {
     margin: 20px 0;
+    text-align: justify;
 }
 
 .action__item ul {
