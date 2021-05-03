@@ -12,21 +12,21 @@ export const servicesItems = [
         title: 'Układanie kostki i kamieni',
         description: 'Wykonujemy drogi, podjazdy, parkingi, chodniki'
     },
-    {
-        image: elevation,
-        title: 'Tarasy i schody',
-        description: 'Wykonujemy tarasy oraz schody, z kostki i drewna'
-    },
-    {
-        image: painting,
-        title: 'Ogrodzenia',
-        description: 'Kompleksowe wykonywanie ogrodzeń'
-    },
-    {
-        image: electricalInstallation,
-        title: 'Projektowanie',
-        description: 'Wykonujemy projekty oraz wizualizacje 3D'
-    },
+    // {
+    //     image: elevation,
+    //     title: 'Tarasy i schody',
+    //     description: 'Wykonujemy tarasy oraz schody, z kostki i drewna'
+    // },
+    // {
+    //     image: painting,
+    //     title: 'Ogrodzenia',
+    //     description: 'Kompleksowe wykonywanie ogrodzeń'
+    // },
+    // {
+    //     image: electricalInstallation,
+    //     title: 'Projektowanie',
+    //     description: 'Wykonujemy projekty oraz wizualizacje 3D'
+    // },
     {
         image: renovation,
         title: 'Prace ziemne',

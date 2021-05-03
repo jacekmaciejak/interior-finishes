@@ -51,6 +51,8 @@
 
 .action__image {
     width: 100%;
+    overflow: hidden;
+
 }
 
 .action__image img {
@@ -59,6 +61,13 @@
     background-size: cover;
     background-position: center center;
     object-fit: cover;
+    transition: all 0.2s linear;
+
+}
+
+.action__image img:hover {
+    transform: scale(1.1);
+
 }
 
 .action__line {

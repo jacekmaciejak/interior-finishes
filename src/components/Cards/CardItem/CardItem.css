@@ -1,5 +1,6 @@
 .cards__item {
-/* width: 50%; */
+    margin: 25px;
+    width: 400px;
 }
 
 .cards__item__link {
@@ -33,11 +34,12 @@
     margin-left: 10px;
     padding: 6px 8px;
     max-width: calc((100%) - 60px);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     color: #fff;
     background-color: #1f98f4;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 
 .cards__item__img {
@@ -59,10 +61,10 @@
 
 .cards__item__info {
     padding: 20px 30px 20px;
+    background-color: var(--green-bland-colour);
 }
 
 .cards__item__text {
-    color: #252e48;
-    font-size: 18px;
+    color: var(--grey-colour);
     line-height: 24px;
 }

@@ -17,6 +17,7 @@
     cursor: pointer;
     border-radius: 5px;
     width: 350px;
+    overflow: hidden;
 
 }
 
@@ -31,11 +32,10 @@
     }
 }
 
-.services__item:hover {
+/* .services__item:hover {
     box-shadow: 0 20px 40px -10px #818181;
-    transition: ease-out .5s;
-    background-color: #fff;
-}
+    transition: all 0.2s linear;
+} */
 
 .services__image {
     width: 270px;
@@ -44,6 +44,13 @@
     border-radius: 5px;
     object-fit: cover;
     border: 3px solid #fff;
+    transition: all 0.2s linear;
+
+}
+
+.services__image:hover {
+    transform: scale(1.1);
+
 }
 
 .services__imageNone {
