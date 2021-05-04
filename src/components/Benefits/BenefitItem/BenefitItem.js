@@ -3,11 +3,9 @@ import './BenefitItem.css'
 
 function BenefitItem(props) {
     return (
-        <div>
-            <div className="benefits__item">
-                <i className={props.icon}></i>
-                <h1>{props.text}</h1>
-            </div>
+        <div className="benefits__item">
+            <i className={props.icon}></i>
+            <h1>{props.text}</h1>
         </div>
     )
 }

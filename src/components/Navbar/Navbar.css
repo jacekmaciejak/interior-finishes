@@ -53,7 +53,6 @@
 .nav-item {
   height: auto;
   padding: 0.5rem 1rem;
-
 }
 
 .nav-links {
@@ -118,14 +117,18 @@
   .nav-links {
     text-align: center;
     padding: 2rem;
-    width: 100%;
+    width: 70%;
     display: table;
+    margin: 0 auto;
+    transition: all 0.8s ease-out;
+
   }
 
   .nav-links:hover {
     background-color: #fff;
     color: #242424;
-    border-radius: 0;
+    transition: all 0.8s ease-out;
+
   }
 
   .navbar-logo {
@@ -169,5 +172,11 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-logo {
+    display: none;
   }
 }

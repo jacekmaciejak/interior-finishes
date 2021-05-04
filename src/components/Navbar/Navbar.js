@@ -71,14 +71,14 @@ function Navbar() {
               </NavLink></li>
 
                         <li>
-                            <NavLink
+                            {/* <NavLink
                                 to='/sign-up'
                                 className='nav-links-mobile'
                                 onClick={closeMobileMenu}
                                 activeClassName='link-active'
                             >
                                 Sign Up
-              </NavLink>
+              </NavLink> */}
 
                         </li>
                     </ul>

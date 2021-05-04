@@ -3,7 +3,7 @@ import './AboutCompany.css'
 import owner from '../../assets/images/owner.jpg'
 import Button from '../Button/Button'
 
-function AboutCompany() {
+function AboutCompany({ path }) {
     return (
         <>
             <div className='content__container'>
@@ -14,7 +14,7 @@ function AboutCompany() {
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi animi tempora ut adipisci voluptatum debitis quo omnis asperiores molestiae incidunt quod suscipit aliquam nemo illo, perferendis sit minima quos consectetur odit quas repellat officiis quaerat. Id sapiente accusamus tenetur laboriosam ?</p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi animi tempora ut adipisci voluptatum debitis quo omnis asperiores molestiae incidunt quod suscipit aliquam nemo illo, perferendis sit minima quos consectetur odit quas repellat officiis quaerat. Id sapiente accusamus tenetur laboriosam ?</p>
                     <div className="content__button">
-                        <Button buttonStyle='btn--center' >Zakres usług</Button>
+                        <Button path='/uslugi' buttonStyle='btn--center' >Zakres usług</Button>
                     </div>
 
                 </section>

@@ -2,16 +2,16 @@ import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom'
 
-const STYLES = ['btn--primary', 'btn--outline','btn--center']
+const STYLES = ['btn--primary', 'btn--outline', 'btn--center']
 const SIZES = ['btn--medium', 'btn--large']
 
-const Button = ({ children, type, onClick, buttonStyle, buttonSize }) => {
+const Button = ({ path, children, type, onClick, buttonStyle, buttonSize }) => {
 
   const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0]
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
 
   return (
-    <Link to='/kontakt' className='btn__mobile'>
+    <Link to={path} className='btn__mobile'>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}

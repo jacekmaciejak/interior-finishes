@@ -29,10 +29,10 @@ function Footer() {
                 <div className='footer__link__wrapper'>
                     <div class='footer__link__items'>
                         <h2>O nas</h2>
-                        <Link to='/sign-up'>Jak działamy?</Link>
-                        <Link to='/'>Referencje</Link>
-                        <Link to='/'>Kariera</Link>
-                        <Link to='/'>Dla inwestora</Link>
+                        <Link to='/kontakt'>Jak działamy?</Link>
+                        <Link to='/kontakt'>Referencje</Link>
+                        <Link to='/kontakt'>Kariera</Link>
+                        <Link to='/kontakt'>Dla inwestora</Link>
                     </div>
                     <div class='footer__link__items'>
                         <h2>Media</h2>
