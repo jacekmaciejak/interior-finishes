@@ -1,11 +1,10 @@
 import React from 'react'
 import './BackgroundImage.css'
-import backgroundImage from '../../assets/images/waterInstallation.jpg'
 
-function BackgroundImage() {
+function BackgroundImage({image}) {
     return (
         <div>
-            <img className='background__image' src={backgroundImage} alt="Background" />
+            <img className='background__image' src={image} alt="Background" />
         </div>
     )
 }

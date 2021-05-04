@@ -1,7 +1,6 @@
 import React from 'react'
 import MyMapComponent from './MyMapComponent'
 import './MyFancyComponent.css'
-import Title from '../Title/Title'
 import Address from '../Address/Address'
 
 

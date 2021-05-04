@@ -2,7 +2,7 @@ import React from 'react'
 import './Services.css'
 import '../../App.css'
 import ServicesWrapper from '../ServicesWrapper/ServicesWrapper'
-import BackgroundImage from '../BackgroundImage/BackgroundImage'
+import video_1 from '../../assets/videos/video-1.mp4'
 
 function Services() {
 
@@ -10,7 +10,7 @@ function Services() {
 
         <div className="services">
             {/* <BackgroundImage /> */}
-            <video className='services__video' src="/videos/video-1.mp4" autoPlay loop muted />
+            <video className='services__video' src={video_1} autoPlay loop muted />
             <ServicesWrapper />
         </div>
 
