@@ -1,14 +1,23 @@
 import React from 'react'
 import './ServicesItem.css'
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 
-function ServicesItem({ image, title, description }) {
+
+function ServicesItem({ path, image, title, description }) {
     const ImageTag = image ? "img" : "div"
     return (
-        <div className='services__item'>
-            <ImageTag src={image} className={image ? 'services__image' : 'services__imageNone'} alt={title} />
-            <h2>{title}</h2>
-            <p>{description}</p>
+        <div className="services__item">
+            <Link to={path} className="services__item__link">
+                <figure className="services__item__pic-wrap" data-category={title}>
+                    <ImageTag src={image} className={image ? 'services__item__img' : 'services__imageNone'} alt={title} />
+                </figure>
+                <div className="services__item__info">
+                    {/* <h2 className="cards__item__text">{title}</h2> */}
+                    <p>{description}</p>
+
+                </div>
+            </Link>
         </div>
     )
 }
