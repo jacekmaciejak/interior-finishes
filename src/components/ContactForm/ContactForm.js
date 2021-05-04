@@ -9,7 +9,6 @@ function ContactForm() {
     function focusFunc() {
         let parent = this.parentNode;
         parent.classList.add("focus");
-        console.log('Focus');
 
     }
 
@@ -18,7 +17,6 @@ function ContactForm() {
         if (this.value === "") {
             parent.classList.remove("focus");
         }
-        console.log('Blur');
 
     }
 
@@ -31,13 +29,7 @@ function ContactForm() {
     return (
         <div className='contact__item'>
             <div className="contact__container">
-                {/* <span className="contact__big-circle"></span>
-                <img src="img/shape.png" className="contact__square" alt="" /> */}
                 <div className="contact__form">
-                    {/* <span className="contact__circle one"></span>
-                    <span className="contact__circle two"></span> */}
-                    {/* <h2 className="contact__title">Napisz do nas</h2> */}
-
                     <form className='contact__wrapper' action="index.html" autocomplete="off">
                         <div className="form__items">
                             <div className="input__container">
@@ -79,7 +71,6 @@ function ContactForm() {
                                 <label for="">Wiadomość</label>
                                 <span>Wiadomość</span>
                             </div>
-                            {/* <input type="submit" value="Wyślij" className="form__btn" /> */}
                             <Button buttonStyle='btn--center'>Wyślij</Button>
                         </div>
 

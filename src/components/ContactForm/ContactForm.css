@@ -24,37 +24,6 @@
 
 }
 
-/* .contact__circle {
-    border-radius: 50%;
-    background: linear-gradient(135deg, transparent 20%, var(--gold-colour));
-            position: absolute;
-    }
-
-    .contact__circle.one {
-        width: 130px;
-        height: 130px;
-        top: 130px;
-        right: -40px;
-    }
-
-    .contact__circle.two {
-        width: 80px;
-        height: 80px;
-        top: 10px;
-        right: 30px;
-    } */
-
-/* .contact__form:before {
-        content: "";
-        position: absolute;
-        width: 26px;
-        height: 26px;
-        background-color: #1abc9c;
-        transform: rotate(45deg);
-        top: 50px;
-        left: -13px;
-    } */
-
 .contact__wrapper {
     padding: 2.3rem 2.2rem;
     z-index: 10;
@@ -130,26 +99,6 @@ textarea.form__input {
     top: 1rem;
     transform: translateY(0);
 }
-
-/* .form__btn {
-    padding: 0.6rem 1.3rem;
-    background-color: #fff;
-    border: 2px solid #fafafa;
-    font-size: 0.95rem;
-    color: #1abc9c;
-    line-height: 1;
-    border-radius: 25px;
-    outline: none;
-    cursor: pointer;
-    transition: 0.3s;
-    margin: auto;
-    width: 30%;
-}
-
-.form__btn:hover {
-    background-color: transparent;
-    color: #fff;
-} */
 
 .input__container span {
     position: absolute;
