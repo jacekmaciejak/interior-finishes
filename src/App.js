@@ -23,7 +23,7 @@ const App = () => {
 
     <>
       {isLoading === true ? <LoadingSpinner /> :
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Navbar></Navbar>
           <Switch>
             <Route path='/' exact component={Home} />
