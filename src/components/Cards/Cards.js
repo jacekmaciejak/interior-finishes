@@ -9,9 +9,8 @@ function Cards() {
     return (
 
         <div className='cards'>
-            {/* <video src="/videos/video-1.mp4" autoPlay loop muted /> */}
-            {/* <h1>Zakres usług</h1> */}
             <div className="cards__container">
+
                 <CardItem
                     src={ogrod}
                     text='Ogrodnictwo'

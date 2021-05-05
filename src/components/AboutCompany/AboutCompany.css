@@ -14,7 +14,6 @@
 
 .content__image>img {
     object-fit: cover;
-    box-shadow: 0 20px 40px -10px #818181;
     width: 100%;
     transition: all 0.2s linear
 }
@@ -72,7 +71,7 @@
 }
 
 .content__button {
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .content__wave {
