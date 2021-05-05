@@ -7,11 +7,19 @@ function AboutCompany({ path }) {
     return (
         <>
             <div className='content__container'>
-
-                <img src={owner} alt="Owner" />
+                <figure className='content__image'>
+                    <img src={owner} alt="Owner" />
+                </figure>
                 <section className="content__description">
                     <h1>Witajcie na naszej stronie</h1>
+                    <div className='content__line'>
+                        <hr />
+                        <hr />
+                        <hr />
+                    </div>
+                    <h2>Witajcie na naszej stronie</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi animi tempora ut adipisci voluptatum debitis quo omnis asperiores molestiae incidunt quod suscipit aliquam nemo illo, perferendis sit minima quos consectetur odit quas repellat officiis quaerat. Id sapiente accusamus tenetur laboriosam ?</p>
+                    <h2>Dlaczego my?</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eligendi animi tempora ut adipisci voluptatum debitis quo omnis asperiores molestiae incidunt quod suscipit aliquam nemo illo, perferendis sit minima quos consectetur odit quas repellat officiis quaerat. Id sapiente accusamus tenetur laboriosam ?</p>
                     <div className="content__button">
                         <Button path='/uslugi' buttonStyle='btn--center' >Zakres usług</Button>
