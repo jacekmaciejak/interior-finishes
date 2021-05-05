@@ -2,18 +2,20 @@
     background-color: var(--green-bland-colour);
     display: flex;
     padding: 4rem;
-    /* max-height: 80vh; */
     width: 100%;
+    height: auto;
     margin-top: -150px;
 }
 
 .content__image {
-    width: 100%;
+    width: 70%;
     overflow: hidden;
 }
 
 .content__image>img {
     object-fit: cover;
+    background-size: cover;
+    background-position: center center;
     width: 100%;
     transition: all 0.2s linear
 }
@@ -105,7 +107,7 @@
 @media only screen and (max-width: 900px) {
 
     .content__container {
-        height: auto;
+        height: 100vh;
         padding: 1rem;
     }
 
@@ -117,5 +119,15 @@
     .content__description {
         margin: 90px 0 0 0;
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .content__container {
+        height: 130vh;
+    }
+
+    .content__description>h1 {
+        width: 90%;
     }
 }

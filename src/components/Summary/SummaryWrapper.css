@@ -11,6 +11,8 @@
     height: 150px;
     overflow: hidden;
     margin-top: -80px;
+    position: relative;
+    z-index: 100;
 }
 
 .summary__wrapper-wave-top svg {
@@ -40,5 +42,4 @@
     fill: var(--black-colour);
 }
 
-@media screen and (max-width: 800px) {
-}
+@media screen and (max-width: 800px) {}

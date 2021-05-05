@@ -4,7 +4,7 @@
     justify-content: center;
     padding: 30px;
     color: var(--gold-colour);
-
+    text-align: center;
 }
 
 .benefits__item i {
@@ -14,4 +14,10 @@
 
 .benefits__item h1 {
     text-transform: uppercase;
+}
+
+@media only screen and (max-width: 500px) {
+    .benefits__item h1 {
+        font-size: 24px;
+    }
 }
