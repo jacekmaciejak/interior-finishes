@@ -23,3 +23,10 @@
     stroke: none;
     fill: var(--grey-colour);
 }
+
+@media only screen and (max-width: 500px) {
+    .benefits__container {
+
+        padding: 0px;
+    }
+}

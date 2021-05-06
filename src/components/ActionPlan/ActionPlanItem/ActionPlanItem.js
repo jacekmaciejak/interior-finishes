@@ -2,6 +2,7 @@ import React from 'react'
 import './ActionPlanItem.css'
 import PropTypes from 'prop-types'
 import Button from '../../Button/Button'
+import Title from '../../Title/Title'
 
 function ActionPlanItem({ path, image, title1, title2, title3, title4, p1, p2, p3, p4, p5, p6, description }) {
     return (
@@ -10,7 +11,7 @@ function ActionPlanItem({ path, image, title1, title2, title3, title4, p1, p2, p
             <div className="action__container">
                 <div className="action__item">
                     <h2>{title1}</h2>
-                    <h1>{title2}</h1>
+                    <Title>{title2}</Title>
                     <div className='action__line'>
                         <hr />
                         <hr />

@@ -7,6 +7,7 @@ import '../../App.css'
 function Hero({ path }) {
     return (
         <div className='hero__container'>
+
             <h2>Luksus to nie tylko piękny ogród</h2>
             <h1>To sposób w jaki powstaje</h1>
             <section className="hero__buttons">

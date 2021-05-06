@@ -3,11 +3,12 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: transparent;
     height: 100%;
     width: 100%;
     background-size: cover;
     object-fit: cover;
+    background-position: center center;
+
 }
 
 .back__image-opacity {

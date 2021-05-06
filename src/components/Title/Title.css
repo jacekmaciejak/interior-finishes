@@ -1,6 +1,7 @@
 .main__title {
-    /* color: #13D477; */
-    color: #000;
+    color: var(--text-colour);
     font-weight: bold;
     text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
 }

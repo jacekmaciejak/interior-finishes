@@ -2,6 +2,7 @@ import React from 'react'
 import './AboutCompany.css'
 import owner from '../../assets/images/owner.jpg'
 import Button from '../Button/Button'
+import Title from '../Title/Title'
 
 function AboutCompany({ path }) {
     return (
@@ -11,7 +12,7 @@ function AboutCompany({ path }) {
                     <img src={owner} alt="Owner" />
                 </figure>
                 <section className="content__description">
-                    <h1>Witajcie na naszej stronie</h1>
+                    <Title>Witajcie na naszej stronie</Title>
                     <div className='content__line'>
                         <hr />
                         <hr />
