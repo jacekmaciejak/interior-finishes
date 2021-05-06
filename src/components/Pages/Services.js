@@ -1,16 +1,15 @@
 import React from 'react'
-import './Services.css'
 import '../../App.css'
 import ServicesWrapper from '../ServicesWrapper/ServicesWrapper'
-import video_1 from '../../assets/videos/video-1.mp4'
+import BackgroundImage from '../BackgroundImage/BackgroundImage'
+import tlo_kontakt from '../../assets/images/tlo_kontakt.jpg'
 
 function Services() {
 
     return (
 
         <div className="services">
-            {/* <BackgroundImage /> */}
-            <video className='services__video' src={video_1} autoPlay loop muted />
+            <BackgroundImage image={tlo_kontakt} imageStyle='back__image-opacity' />
             <ServicesWrapper />
         </div>
 

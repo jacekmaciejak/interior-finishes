@@ -1,6 +1,6 @@
 import spotkanie from '../assets/images/spotkanie.jpg'
 import akceptacja from '../assets/images/akceptacja.jpg'
-import ogród from '../assets/images/ogród.jpg'
+import ogrod from '../assets/images/ogrod.jpg'
 
 export const actionPlanItems = [
     {
@@ -28,7 +28,7 @@ export const actionPlanItems = [
         path: '/kontakt'
     },
     {
-        image: ogród,
+        image: ogrod,
         title1: 'Czas na wykonanie',
         title2: 'zaczynamy',
         description: 'Rozpoczynamy ustalone prace. Szybko, sprawnie, przejrzyście finansowo i zgodnie z Państwa oczekiwaniami. W trakcie prac możemy zmieniać i ustalać nowe roziwązania na bieżąco. ',

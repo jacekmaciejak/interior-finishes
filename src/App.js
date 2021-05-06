@@ -20,7 +20,6 @@ const App = () => {
     }, 1500);
   })
   return (
-
     <>
       {isLoading === true ? <LoadingSpinner /> :
         <Router basename={process.env.PUBLIC_URL}>

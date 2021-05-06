@@ -1,4 +1,4 @@
-.background__image {
+.back__image {
     position: fixed;
     top: 0;
     left: 0;
@@ -6,7 +6,10 @@
     background-color: transparent;
     height: 100%;
     width: 100%;
-    opacity: .2;
     background-size: cover;
     object-fit: cover;
+}
+
+.back__image-opacity {
+    opacity: .2;
 }
