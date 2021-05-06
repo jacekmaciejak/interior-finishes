@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/interior-finishes/static/css/main.16adacb2.chunk.css",
-    "main.js": "/interior-finishes/static/js/main.884cd2c8.chunk.js",
-    "main.js.map": "/interior-finishes/static/js/main.884cd2c8.chunk.js.map",
+    "main.css": "/interior-finishes/static/css/main.0e1bf688.chunk.css",
+    "main.js": "/interior-finishes/static/js/main.3d83b291.chunk.js",
+    "main.js.map": "/interior-finishes/static/js/main.3d83b291.chunk.js.map",
     "runtime-main.js": "/interior-finishes/static/js/runtime-main.b210a1d2.js",
     "runtime-main.js.map": "/interior-finishes/static/js/runtime-main.b210a1d2.js.map",
-    "static/js/2.690d6cb6.chunk.js": "/interior-finishes/static/js/2.690d6cb6.chunk.js",
-    "static/js/2.690d6cb6.chunk.js.map": "/interior-finishes/static/js/2.690d6cb6.chunk.js.map",
+    "static/js/2.380b4153.chunk.js": "/interior-finishes/static/js/2.380b4153.chunk.js",
+    "static/js/2.380b4153.chunk.js.map": "/interior-finishes/static/js/2.380b4153.chunk.js.map",
     "index.html": "/interior-finishes/index.html",
-    "static/css/main.16adacb2.chunk.css.map": "/interior-finishes/static/css/main.16adacb2.chunk.css.map",
-    "static/js/2.690d6cb6.chunk.js.LICENSE.txt": "/interior-finishes/static/js/2.690d6cb6.chunk.js.LICENSE.txt",
+    "static/css/main.0e1bf688.chunk.css.map": "/interior-finishes/static/css/main.0e1bf688.chunk.css.map",
+    "static/js/2.380b4153.chunk.js.LICENSE.txt": "/interior-finishes/static/js/2.380b4153.chunk.js.LICENSE.txt",
     "static/media/akceptacja.8c09edd0.jpg": "/interior-finishes/static/media/akceptacja.8c09edd0.jpg",
-    "static/media/background.182dc1a5.jpg": "/interior-finishes/static/media/background.182dc1a5.jpg",
     "static/media/electricalInstallation.621ce78a.jpg": "/interior-finishes/static/media/electricalInstallation.621ce78a.jpg",
     "static/media/elevation.670060a5.jpg": "/interior-finishes/static/media/elevation.670060a5.jpg",
     "static/media/koparka.684df7e7.jpg": "/interior-finishes/static/media/koparka.684df7e7.jpg",
@@ -21,23 +20,22 @@
     "static/media/narzedzia.401ba6d1.jpg": "/interior-finishes/static/media/narzedzia.401ba6d1.jpg",
     "static/media/ogrod.ad7b0310.jpg": "/interior-finishes/static/media/ogrod.ad7b0310.jpg",
     "static/media/ogrodzenie.67a2e143.jpg": "/interior-finishes/static/media/ogrodzenie.67a2e143.jpg",
-    "static/media/ogród.b6d6a127.jpg": "/interior-finishes/static/media/ogród.b6d6a127.jpg",
     "static/media/owner.074e8cef.jpg": "/interior-finishes/static/media/owner.074e8cef.jpg",
     "static/media/painting.908350ee.jpg": "/interior-finishes/static/media/painting.908350ee.jpg",
     "static/media/phone.69b621fb.png": "/interior-finishes/static/media/phone.69b621fb.png",
     "static/media/plasters.78b6e8ae.jpg": "/interior-finishes/static/media/plasters.78b6e8ae.jpg",
     "static/media/renovation.ed0e6a9d.jpg": "/interior-finishes/static/media/renovation.ed0e6a9d.jpg",
     "static/media/spotkanie.57c116d1.jpg": "/interior-finishes/static/media/spotkanie.57c116d1.jpg",
+    "static/media/tlo_glowna.e96c38f7.jpg": "/interior-finishes/static/media/tlo_glowna.e96c38f7.jpg",
+    "static/media/tlo_kontakt.182dc1a5.jpg": "/interior-finishes/static/media/tlo_kontakt.182dc1a5.jpg",
     "static/media/trawa_z_rolki.353b5b02.jpg": "/interior-finishes/static/media/trawa_z_rolki.353b5b02.jpg",
-    "static/media/video-1.f456c0f4.mp4": "/interior-finishes/static/media/video-1.f456c0f4.mp4",
-    "static/media/video-2.3e7f9681.mp4": "/interior-finishes/static/media/video-2.3e7f9681.mp4",
     "static/media/waterInstallation.b0859cd3.jpg": "/interior-finishes/static/media/waterInstallation.b0859cd3.jpg",
     "static/media/zraszacz.2617f890.jpg": "/interior-finishes/static/media/zraszacz.2617f890.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b210a1d2.js",
-    "static/js/2.690d6cb6.chunk.js",
-    "static/css/main.16adacb2.chunk.css",
-    "static/js/main.884cd2c8.chunk.js"
+    "static/js/2.380b4153.chunk.js",
+    "static/css/main.0e1bf688.chunk.css",
+    "static/js/main.3d83b291.chunk.js"
   ]
 }
