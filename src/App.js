@@ -9,6 +9,7 @@ import Contact from './components/Pages/Contact';
 import Realizations from './components/Pages/Realizations';
 import Footer from './components/Footer/Footer';
 import LoadingSpinner from './components/LoadingSpinner/LoadingSpinner'
+import Error from './components/Pages/Error';
 
 
 
@@ -30,6 +31,7 @@ const App = () => {
             <Route path='/uslugi' component={Services} />
             <Route path='/nasze-realizacje' component={Realizations} />
             <Route path='/kontakt' component={Contact} />
+            <Route component={Error} />
           </Switch>
           <Footer />
         </Router>
@@ -37,10 +39,6 @@ const App = () => {
 
 
     </>
-
-
-
-
   );
 }
 

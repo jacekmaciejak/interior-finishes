@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '../Button/Button';
 import './ContactForm.css'
 
-function ContactForm() {
+const ContactForm = () => {
 
     const inputs = document.querySelectorAll(".form__input");
 
@@ -24,6 +24,15 @@ function ContactForm() {
         input.addEventListener("focus", focusFunc);
         input.addEventListener("blur", blurFunc);
     });
+
+    // const xxx = () => {
+    //     return (inputs.forEach((input) => {
+    //         input.addEventListener("focus", focusFunc);
+    //         input.addEventListener("blur", blurFunc);
+    //     }))
+
+
+    // }
 
 
     return (

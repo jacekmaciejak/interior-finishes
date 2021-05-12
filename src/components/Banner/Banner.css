@@ -1,8 +1,5 @@
-
-.hero__container {
-    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
-    height: calc(100vh - 80px);
-    width: 100%;
+.banner__container {
+    background: rgba(43, 42, 42, .5);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,23 +7,27 @@
     object-fit: contain;
     color: #fff;
     text-align: center;
+    padding: 2rem 2rem;
+    border-radius: 2px;
+    margin: 0 2rem;
 }
 
-.hero__buttons {
+
+.banner__wrapper {
     display: flex;
     column-gap: 10px;
     align-items: center;
 
 }
 
-.hero__container>h1 {
+.banner__container>h1 {
     font-size: 60px;
     margin: 25px 20px;
     text-transform: uppercase;
 
 }
 
-.hero__container>h2 {
+.banner__container>h2 {
     font-size: 40px;
     margin: 0px 20px;
 
@@ -34,17 +35,17 @@
 
 
 @media screen and (max-width: 960px) {
-    .hero__container>h1 {
+    .banner__container>h1 {
         font-size: 70px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .hero__container>h1 {
+    .banner__container>h1 {
         font-size: 50px;
     }
 
-    .hero__container>p {
+    .banner__container>p {
         font-size: 30px;
     }
 
@@ -56,7 +57,7 @@
 }
 
 @media screen and (max-width: 400px) {
-    .hero__buttons {
+    .banner__wrapper {
         width: 100%;
         display: grid;
         align-items: center;
