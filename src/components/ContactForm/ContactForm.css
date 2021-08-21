@@ -2,7 +2,8 @@
     width: 50%;
     padding: 40px;
     margin: 50px auto;
-    background-color: var(--gold-colour);
+    background-color: #cbc9c9;
+    border-radius: 10px;
 }
 
 .contact__container h2 {
@@ -14,24 +15,28 @@
     position: relative;
     width: 100%;
     margin-top: 10px;
+    border-radius: 10px;
+
 }
 
 .inputBox input,
 .inputBox textarea {
     width: 100%;
-    padding: 5px 0;
+    padding: 5px 10px;
     font-size: 18px;
     margin: 10px 0;
     border: none;
-    border-bottom: 2px solid #333;
+    /* border-bottom: 2px solid #333; */
     outline: none;
     resize: none;
+    border-radius: 10px;
+
 }
 
 .inputBox span {
     position: absolute;
     left: 0;
-    padding: 5px 0;
+    padding: 5px 10px;
     font-size: 16px;
     margin: 10px 0;
     pointer-events: none;
@@ -66,6 +71,7 @@
 .inputBox input[type='submit']:hover {
     color: var(--black-colour);
     transform: scale(1.3);
+    color: #fff;
 }
 
 @media screen and (max-width: 850px) {

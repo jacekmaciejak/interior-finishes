@@ -9,7 +9,6 @@
   top: 0;
   z-index: 999;
   letter-spacing: 2px;
-
 }
 
 .navbar-container {
@@ -20,7 +19,6 @@
   width: 90%;
   /* max-width: 1500px; */
 }
-
 
 .navbar-logo {
   color: #fff;
@@ -37,7 +35,6 @@
   margin-left: 0.5rem;
   font-size: 1.8rem;
   color: #12C93D;
-
 }
 
 .nav-menu {
@@ -63,7 +60,6 @@
   padding-bottom: 5px;
   height: 100%;
   border-bottom: 2px solid transparent;
-
 }
 
 .nav-links:hover {

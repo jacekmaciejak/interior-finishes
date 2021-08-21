@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "react-router-dom";
 import BackgroundImage from '../BackgroundImage/BackgroundImage';
 import Hero from '../Hero/Hero';
 import tlo_glowna from '../../assets/images/tlo_glowna.jpg'

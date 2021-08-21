@@ -24,7 +24,7 @@ const App = () => {
     <>
       {isLoading === true ? <LoadingSpinner /> :
         <Router basename={process.env.PUBLIC_URL}>
-          <Navbar></Navbar>
+          <Navbar/>
           <Switch>
             <Route path='/' exact component={Home} />
             <Route path='/o-nas' component={Home} />

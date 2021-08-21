@@ -8,7 +8,6 @@
 }
 
 .content__image {
-    width: 70%;
     overflow: hidden;
 }
 
@@ -20,9 +19,9 @@
     transition: all 0.2s linear
 }
 
-.content__image>img:hover {
+/* .content__image>img:hover {
     transform: scale(1.1);
-}
+} */
 
 
 .content__description {

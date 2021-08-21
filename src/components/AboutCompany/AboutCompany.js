@@ -3,13 +3,16 @@ import './AboutCompany.css'
 import owner from '../../assets/images/owner.jpg'
 import Button from '../Button/Button'
 import Title from '../Title/Title'
+import simpleParallax from 'simple-parallax-js';
 
 function AboutCompany({ path }) {
+
+
     return (
         <>
             <div className='content__container'>
                 <figure className='content__image'>
-                    <img src={owner} alt="Owner" />
+                    <img class="image__title" src={owner} alt="Owner" />
                 </figure>
                 <section className="content__description">
                     <Title>Witajcie na naszej stronie</Title>
