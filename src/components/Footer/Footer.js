@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
-        <div className='footer__container'>
+        <section className='footer__container'>
             {/* <section className='footer-subscription'>
                 <p className='footer-subscription-heading'>
                     Zapraszamy do zapisania się do newslettera
@@ -29,10 +29,10 @@ function Footer() {
                 <div className='footer__link__wrapper'>
                     <div class='footer__link__items'>
                         <h2>O nas</h2>
-                        <Link to='/kontakt'>Jak działamy?</Link>
-                        <Link to='/kontakt'>Referencje</Link>
-                        <Link to='/kontakt'>Kariera</Link>
-                        <Link to='/kontakt'>Dla inwestora</Link>
+                        <Link to='/draft'>Jak działamy?</Link>
+                        <Link to='/draft'>Referencje</Link>
+                        <Link to='/draft'>Kariera</Link>
+                        <Link to='/draft'>Dla inwestora</Link>
                     </div>
                     <div class='footer__link__items'>
                         <h2>Media</h2>
@@ -44,7 +44,7 @@ function Footer() {
                     <div class='footer__icons'>
                         <Link
                             class='social__icon__link facebook'
-                            to='/'
+                            to={{ pathname: 'https://github.com/jacekmaciejak/' }}
                             target='_blank'
                             aria-label='Facebook'
                         >
@@ -111,7 +111,7 @@ function Footer() {
 
                 </div>
             </section> */}
-        </div>
+        </section >
     );
 }
 

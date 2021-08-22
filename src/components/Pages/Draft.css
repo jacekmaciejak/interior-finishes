@@ -1,0 +1,5 @@
+.draft {
+    min-height: 60vh;
+    display: grid;
+    align-items: start;
+}

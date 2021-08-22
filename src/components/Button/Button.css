@@ -54,3 +54,14 @@
 .btn--center {
   margin: 0 auto;
 }
+
+@media screen and (max-width: 400px) {
+
+  .btn--large {
+    padding: 8px 17px;
+    font-size: 15px;
+
+  }
+
+
+}

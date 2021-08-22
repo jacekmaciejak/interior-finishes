@@ -4,7 +4,6 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
 }
 
 .summary__wrapper-wave-top {
@@ -42,4 +41,12 @@
     fill: var(--black-colour);
 }
 
-@media screen and (max-width: 800px) {}
+@media screen and (max-width: 500px) {
+    .summary__wrapper {
+        padding-top: 20px;
+    }
+
+    .summary__wrapper-wave-top {
+        display: none;
+    }
+}

@@ -4,13 +4,15 @@ import './Cards.css'
 import kostka from '../../assets/images/kostka.jpg'
 import ogrod from '../../assets/images/ogrod.jpg'
 import ogrodzenie from '../../assets/images/ogrodzenie.jpg'
+import Title from "../Title/Title"
 
 function Cards() {
     return (
 
         <div className='cards'>
-            <div className="cards__container">
 
+            <Title>Co robimy?</Title>
+            <div className="cards__container">
                 <CardItem
                     src={ogrod}
                     text='Ogrodnictwo'

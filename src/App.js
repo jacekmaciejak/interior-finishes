@@ -10,6 +10,7 @@ import Realizations from './components/Pages/Realizations';
 import Footer from './components/Footer/Footer';
 import LoadingSpinner from './components/LoadingSpinner/LoadingSpinner'
 import Error from './components/Pages/Error';
+import Draft from './components/Pages/Draft';
 
 
 
@@ -24,13 +25,14 @@ const App = () => {
     <>
       {isLoading === true ? <LoadingSpinner /> :
         <Router basename={process.env.PUBLIC_URL}>
-          <Navbar/>
+          <Navbar />
           <Switch>
             <Route path='/' exact component={Home} />
             <Route path='/o-nas' component={Home} />
             <Route path='/uslugi' component={Services} />
             <Route path='/nasze-realizacje' component={Realizations} />
             <Route path='/kontakt' component={Contact} />
+            <Route path='/draft' component={Draft} />
             <Route component={Error} />
           </Switch>
           <Footer />
