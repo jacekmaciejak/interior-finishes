@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 // import Button from '../Button/Button';
-import { Link } from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -36,15 +36,15 @@ function Footer() {
                     </div>
                     <div class='footer__link__items'>
                         <h2>Media</h2>
-                        <Link to='/'>Instagram</Link>
-                        <Link to='/'>Facebook</Link>
-                        <Link to='/'>Youtube</Link>
-                        <Link to='/'>Twitter</Link>
+                        <Link to={'/github'} target='_blank'>Instagram</Link>
+                        <Link to={'/github'} target='_blank'>Facebook</Link>
+                        <Link to={'/github'} target='_blank'>Youtube</Link>
+                        <Link to={'/github'} target='_blank'>Twitter</Link>
                     </div>
                     <div class='footer__icons'>
                         <Link
                             class='social__icon__link facebook'
-                            to={{ pathname: 'https://github.com/jacekmaciejak/' }}
+                            to={'/github'}
                             target='_blank'
                             aria-label='Facebook'
                         >
@@ -52,7 +52,7 @@ function Footer() {
                         </Link>
                         <Link
                             class='social__icon__link instagram'
-                            to='/'
+                            to={'/github'}
                             target='_blank'
                             aria-label='Instagram'
                         >
@@ -60,7 +60,7 @@ function Footer() {
                         </Link>
                         <Link
                             class='social__icon__link youtube'
-                            to='/'
+                            to={'/github'}
                             target='_blank'
                             aria-label='Youtube'
                         >
@@ -68,7 +68,7 @@ function Footer() {
                         </Link>
                         <Link
                             class='social__icon__link twitter'
-                            to='/'
+                            to={'/github'}
                             target='_blank'
                             aria-label='Twitter'
                         >
@@ -76,7 +76,7 @@ function Footer() {
                         </Link>
                         <Link
                             class='social__icon__link twitter'
-                            to='/'
+                            to={'/github'}
                             target='_blank'
                             aria-label='LinkedIn'
                         >
@@ -111,6 +111,14 @@ function Footer() {
 
                 </div>
             </section> */}
+            <Route path='/github'
+                component={() => {
+                    const link = document.createElement('a');
+                    link.href = "https://github.com/jacekmaciejak";
+                    document.body.appendChild(link);
+                    link.click();
+                    return null;
+                }} />
         </section >
     );
 }
